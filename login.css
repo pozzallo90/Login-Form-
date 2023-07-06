@@ -1,0 +1,77 @@
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.login1 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+
+  padding: 40px;
+  height: 250px;
+
+  width: 400px;
+}
+
+.login {
+  margin-right: 30px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.password {
+  text-align: center;
+  font-size: 20px;
+}
+button.hover {
+  cursor: pointer;
+}
+.button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ricordami {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+h1 {
+  color: gold;
+  text-align: center;
+  font-size: 40px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 15px;
+  margin-left: 120px;
+}
+
+a.hover {
+  cursor: pointer;
+
+  color: red;
+}
